@@ -35,10 +35,12 @@
 				<cloudHubDeployment>
 				<username>ganesh_mathe</username>
 				<password>Mulesoft@123</password>
+				<businessGroup>Mule-projects</businessGroup>
 				<environment>Sandbox</environment>
 				<workers>1</workers>
 				<workerType>Micro</workerType>
 				<muleVersion>4.4.0</muleVersion>
+				<objectStoreV2>true</objectStoreV2>
 				</cloudHubDeployment>
 				</configuration>
 			</plugin>
