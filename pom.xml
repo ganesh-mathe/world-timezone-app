@@ -30,16 +30,28 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				
 				<cloudHubDeployment>
-				<username>ganesh_mathe</username>
-				<password>Mulesoft@123</password>
-				<businessGroup>Mule-projects</businessGroup>
-				<environment>Sandbox</environment>
-				<workers>1</workers>
-				<workerType>Micro</workerType>
-				<muleVersion>4.4.0</muleVersion>
-				<objectStoreV2>true</objectStoreV2>
-				</cloudHubDeployment>
+
+						<username>ganesh_mathe</username>
+
+						<password> Mulesoft@123</password>
+
+						<workers>1</workers>
+
+						<workerType>Micro</workerType>
+						
+						<environment>Sandbox</environment>
+
+						<environment>Sandbox</environment>
+
+						<muleVersion>4.4.0</muleVersion>
+
+						<applicationName>Jenkins-Demo-Application-Maven</applicationName>
+						
+						<objectStoreV2>true</objectStoreV2>
+
+					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
