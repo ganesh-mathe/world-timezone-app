@@ -6,7 +6,7 @@
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
 http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
 	<http:request-config name="HTTP_Request_configuration" doc:name="HTTP Request configuration" doc:id="a906315e-7ec7-46ef-b88e-af23b7b6b2ad" basePath="/timezone" >
-		<http:request-connection host="localhost" port="8089" />
+		<http:request-connection host="localhost" port="8081" />
 	</http:request-config>
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="4df09269-629d-47fe-bbec-71b72b0f5452" basePath="/timezone" >
 		<http:listener-connection host="0.0.0.0" port="8089" />
