@@ -31,7 +31,7 @@
 				<extensions>true</extensions>
 				<configuration>
 				
-				<cloudHubDeployment>
+				<deploymentType>cloudhub</deploymentType>
 
 						<username>ganesh_mathe</username>
 
@@ -50,8 +50,6 @@
 						<applicationName>Jenkins-Demo-Application-Maven</applicationName>
 						
 						<objectStoreV2>true</objectStoreV2>
-
-					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
