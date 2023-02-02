@@ -43,6 +43,7 @@
 					<muleVersion>4.4.0</muleVersion>
 					<applicationName>Jenkins-Demo-Application-Maven</applicationName> 
 					<objectStoreV2>true</objectStoreV2>
+					
 				</cloudHubDeployment>
 				</configuration>
 			</plugin>
